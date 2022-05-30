@@ -4,7 +4,7 @@ function budgetSetting(){
     if(value > 5000){
         p.innerText = "ট্যুর  এ  যাবে";
         
-    } else if(value < 5000 && value > 2000){
+    } else if(value < 5000 && value >= 2000){
         p.innerText = "বাইরে খেতে যাবে";
     } else {
         p.innerText = "বাসায়  পার্টি  দিবে"
